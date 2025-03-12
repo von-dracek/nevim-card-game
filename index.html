@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravidla hry NEVIM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: rgb(247, 243, 243);
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pravidla hry NEVIM</h1>
+        
+        <h2>Potřebné předměty</h2>
+        <p>Baliček žolíkových karet.</p>
+        
+        <h2>Počet kol</h2>
+        <p>Předem zvolený fixní nebo se hraje do té doby, dokud jeden z hráčů nepřekoná předem zvolenou hranici počtu bodů (body z jednotlivých kol se sčítají).</p>
+        
+
+        <h2>Cíl hry</h2>
+        <p>Cílem hry je dosáhnout co nejnižšího součtu bodů na konci všech kol.</p>
+        
+        <h2>Počet hráčů</h2>
+        <p>Hru mohou hrát 2 až 6 hráčů.</p>
+        
+        <h2>Rozdání karet</h2>
+        <p>Každý hráč dostane 4 karty lícem dolů. Zbytek balíčku se položí doprostřed jako dobírací balíček a vedle něj se otočí první karta jako odhazovací balíček.</p>
+        
+        <h2>Průběh hry</h2>
+        <ul>
+            <li>Hráči nevidí své karty, na začátku hry se každý hráč může podívat na 2 karty a následně je musí vrátit zpět lícem dolů.</li>
+            <li>Hráči se střídají ve směru hodinových ručiček.</li>
+            <li>Ve svém tahu si hráč lízne kartu z dobíracího nebo odhazovacího balíčku.</li>
+            <li>Líznutou kartu může vyměnit za jednu ze svých karet, kterou zahodí na odhazovací balíček. Pokud si líznul z dobíracího balíčku, může hráč líznutou kartu zahodit. Pokud si líznul z odhazovacího balíčku, musí si hráč kartu ponechat a zahodit jinou kartu.</li>            
+            <li>
+                Některé karty mají při zahození speciální vlastnosti. 
+                    <ul>
+                        <li>J - hráč se může podívat na libovolnou  ze svých karet.</li> 
+                        <li>Q - hráč se může podívat na libovolnou kartu protihráčů. </li> 
+                        <li>K - hráč může prohodit libovolné dvě karty na stole (svoje i protihráčů).</li> 
+                    </ul>
+            </li>            
+        </ul>
+
+        <h2>Konec kola</h2>
+        <p>Každý hráč může na konci svého tahu zaklepat na stůl. Po zaklepání se dohraje kolo (poslední tah hraje hráč předcházející hráči, který zaklepal). Na konci kola se sečtou a zapíšou body.</p>            
+        
+        <h2>Bodování</h2>
+        <ul>
+            <li>Eso = 1 bod</li>
+            <li>Karty 2-10 = hodnota karty</li>
+            <li>J, Q, K = 10 bodů, srdcový K = -2 body, listový K = 20 bodů</li>
+            <li>Joker = 0 bodů</li>
+        </ul>
+        
+        <h2>Konec hry</h2>
+        <p>Na konci hry se sečtou body ze všech kol a hráč s nejvyšším počtem bodů prohrává / hráči, kteří překročili stanovenou hranici bodů prohrávají.</p>            
+        
+    </div>
+</body>
+</html>
